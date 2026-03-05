@@ -520,7 +520,7 @@
   color: rgba(98, 105, 116, 1);
 
   font-family: Jost;
-  font-style: Regular;
+  font-style: normal;
   font-size: 14px;
   font-weight: 400;
   line-height: 22px;
@@ -724,4 +724,199 @@
   position: absolute;
   right: 30px;
   top: 85px;
+}
+
+/* Training */
+
+.tvhome_theatre_frame {
+  position: relative;
+  margin-top: 97px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.tvhome_theatre_frame .container {
+  flex-direction: column;
+}
+
+.tvhome_theatre_frame .container .catergory_top_right {
+  width: 523.19px;
+  height: 28px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  font-family: Jost;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.tvhome_theatre_frame .container .tv_wrapper {
+  position: relative;
+  margin-top: 30px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.tvhome_theatre_frame .tv_wrapper .next_preview {
+  width: 25px;
+}
+.tvhome_theatre_frame .next_preview img {
+  position: absolute;
+  top: 50%;
+  cursor: pointer;
+}
+
+.tvhome_theatre_frame .tv_wrapper .tv_boxes {
+  position: relative;
+
+  width: 1250px;
+  height: 452px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.tvhome_theatre_frame .tv_box .home_box {
+  width: 260px;
+  height: 452px;
+
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.tvhome_theatre_frame .home_box .home_img_box {
+  width: 212px;
+  height: 230px;
+}
+
+.tvhome_theatre_frame .home_img_box .home-hover {
+  display: none;
+  width: 100%;
+  height: 100%;
+
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.tvhome_theatre_frame .home-hover button {
+  margin-bottom: 10px;
+  width: 212px;
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  border: none;
+
+  border-radius: 6px;
+  box-shadow: 0px 5px 20px 0px rgba(0, 83, 246, 0.1);
+  background: rgba(0, 83, 246, 1);
+
+  color: rgba(255, 255, 255, 1);
+
+  font-family: Jost;
+  font-style: normal;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.tvhome_theatre_frame .home_img_box:hover .home-hover {
+  display: flex;
+}
+
+.tvhome_theatre_frame .home_content_box {
+  width: 222px;
+  height: 56px;
+  /* box-sizing: border-box; */
+}
+
+.tvhome_theatre_frame .home_content_box .home_pro_tit {
+  color: rgba(98, 105, 116, 1);
+
+  font-family: Jost;
+  font-style: normal;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 22px;
+
+  text-transform: uppercase;
+}
+
+.tvhome_theatre_frame .home_content_box .home_pro_desc {
+  margin-top: 7px;
+  color: rgba(4, 30, 66, 1);
+
+  font-family: Jost;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.tvhome_theatre_frame .home_content_box .review_box {
+  margin-top: 7px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.tvhome_theatre_frame .home_content_box .review_box img {
+  margin-right: 5px;
+}
+
+.tvhome_theatre_frame .home_content_box .review_box span {
+  color: rgba(98, 105, 116, 1);
+
+  font-family: Jost;
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.tvhome_theatre_frame .home_content_box .money_box {
+  margin-top: 10px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.tvhome_theatre_frame .money_box strong {
+  color: rgba(4, 30, 66, 1);
+
+  font-family: Jost;
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.tvhome_theatre_frame .money_box span {
+  margin-left: 10px;
+  color: rgba(98, 105, 116, 1);
+
+  font-family: Jost;
+  font-style: Regular;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  text-decoration-line: line-through;
 }
